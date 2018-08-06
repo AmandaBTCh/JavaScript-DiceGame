@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(90deg,#825549,#B39F8A);
+}
+.main{
+    background-color: rgb(117, 100, 100);
+    width: 666px;
+    height: 400px;
+    background-color: white;
+    margin: 150px 0 0 350px;
+    border-radius: 5px;
+    position: relative;
+
+}
+.div1{
+    float: left;
+    width: 333px;
+    height: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.div1Player{
+    margin: 80px 0 0 110.5px;
+}
+.num1{
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0 0 150.5px;
+    font-size: 5rem;
+}
+.box1{
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    margin: 50px 0 0 125px;
+    background-color: red;
+    border-radius: 5px;
+}
+.box1Text{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 22px;
+}
+.box1num{
+    display: inline-block;
+    margin-top: 5px;
+    color: white;
+    font-size: 27px;
+}
+.div2{
+    width: 333px;
+    height: 100%;
+    background: white;
+    float: left;
+    border-radius: 5px;
+}
+.div2Player{
+    margin: 80px 0 0 110.5px;
+}
+.num2{
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0 0 150.5px;
+    font-size: 5rem;
+}
+.box2{
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    margin: 50px 0 0 125px;
+    background-color: red;
+    border-radius: 5px;
+}
+.box2Text{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 22px;
+}
+.box2num{
+    display: inline-block;
+    margin-top: 5px;
+    color: white;
+    font-size: 27px;
+}
+.mid{
+    position: absolute;
+}
+button{
+    background-color: transparent;
+    border-color: transparent;
+}
+.new{
+    margin: 100px 0 0 279px;
+}
+.newSym{
+    color: red;
+}
+.roll{
+    margin: 170px 0 0 291px;
+}
+.rollSym{
+    color: red;
+    
+}
+.hold{
+    margin: 15px 0 0 301px;
+}
+.holdSym{
+    color: red;
+}
+.dice{
+    margin: 10px 0 0 118px;
+    position: absolute;
+}

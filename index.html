@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dice Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dice.css">
+
+</head>
+<body onload="disable1();">
+    <div class="main">
+        <div class="div1" id="d1">
+            <h1 class="div1Player" id="dp1">Player 1</h1>
+            <h1 class="num1" id="n1">0</h1>
+            <div class="box1" id="b1">
+                <span class="box1Text" id="bt1">Current</span> <br>
+                <span class="box1num" id="bn1">0</span>
+            </div>
+        </div>
+        <div class="div2" id="d2">
+            <h1 class="div2Player" id="dp2">Player 2</h1>
+            <h1 class="num2" id="n2">0</h1>
+            <div class="box2" id="b2">
+                <span class="box2Text" id="bt2"> Current</span> <br>
+                <span class="box2num" id="bn2">0</span>
+            </div>
+        </div>
+        <div class="mid" id="m1"> 
+            <div class="new" id="nw1">
+                <button onclick="newGame();"id="newGame">  <span> <span class="newSym">&#8853; </span> New Game  </span> </button>
+            </div>
+            <div class="dice" id="dices">
+                <span  class="dice dice-1" title="Dice 1" id="one" ></span> 
+                <span  class="dice dice-2" title="Dice 2" id="two" ></span>
+                <span  class="dice dice-3" title="Dice 3" id="three" ></span>
+                <span  class="dice dice-4" title="Dice 4" id="four" ></span>
+                <span  class="dice dice-5" title="Dice 5" id="five" ></span>
+                <span  class="dice dice-6" title="Dice 6" id="six" ></span>
+
+            </div>
+            <div class="roll" id="rol">
+              <button id="rollsys" onclick="roll();" >  <span> <span class="rollSym"> &#8812; </span> Roll Dice</span> </button>
+            </div>
+            <div class="hold" id="hld">
+            <button id="holdS" onclick="change();"> <span> <span class="holdSym"> &dfisht; </span> Hold</span> </button>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
